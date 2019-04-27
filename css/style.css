@@ -1,0 +1,336 @@
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #f3ca27;
+	background-color: transparent;
+}
+.back-img {
+	background-image: url('../img/header-bg.jpg');
+	padding-top: 300px;
+	padding-bottom: 450px;
+}
+.back-txt {
+	text-align: center;
+	position: absolute;
+	top: 250px;
+	left: 0;
+	right: 0;
+	background-color: transparent;
+}
+.btn-custom{
+	background-color: #1c424d;
+	color: white;
+}
+.back-txt h1 {
+	font: 80px arial;
+	color: #d8dfe1;
+	font-weight: bold;
+}
+.back-txt h1 span {
+	color: #f2c926;
+}
+.back-txt p {
+	font: 20px arial;
+	color: #d8dfe1;
+	margin-bottom: 87px;
+}
+.back-txt a {
+	text-decoration: none;
+	display: inline-block;
+	font: 15px arial;
+	color: #284c56;
+	background-color: #f0c30e;
+	padding: 11px 15px;
+	border-radius: 7px;
+	transition: all 0.40s linear;
+}
+.back-txt a:hover {
+	background-color: #2E3F56;
+	color: white;
+}
+.text-area {
+	text-align: center;
+	margin-top: 118px;
+}
+.text-area h2 {
+	color: #1c424d;
+	font: 40px arial;
+	font-weight: bold;
+}
+.bdr {
+	border-bottom: 3px solid #f3ca27;
+	width: 60px;
+	margin: 0 auto;
+}
+.text-area p {
+	font: 16px arial;
+	color: #5b777f;
+	margin-top: 35px;
+	margin-bottom: 54px;
+}
+.white h2 {
+	color: white;
+}
+.white p {
+	color: white;
+}
+.next {
+	margin-left: 48px;
+}
+.next h3 {
+	font: 22px arial;
+	color: #1c424d;
+	font-weight: bold;
+}
+.next p {
+	font: 14px arial;
+	color: #5b777f;
+	margin-bottom: 45px;
+}
+.next ul li a {
+	display: inline-block;
+	color: #1c424d;
+	font: 14px arial;
+}
+.next ul {
+	list-style: none;
+}
+.next ul li i {
+	color: #f3ca27;
+	margin-right: 7px;
+}
+.back-blue {
+	background-color: #032e3a;
+}
+.web {
+	text-align: center;
+}
+.web i {
+	color: #f3ca27;
+	background-color: #032934;
+	padding: 22px 29px;
+	border-radius: 7px;
+}
+.web h4 {
+	font: 20px arial;
+	color: white;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 27px;
+}
+.web p {
+	font: 14px arial;
+	color: white;
+}
+.our img {
+	margin-bottom: 36px;
+}
+.last-back {
+	background-image: url('../img/statistics-bg.jpg');
+	height: 400px;
+	width: 100%;
+	margin-top: 110px;
+}
+.fun {
+	margin: 110px 0;
+	text-align: center;
+}
+.row i {
+	color: white;
+}
+.row h6 {
+	font: 34px arial;
+	color: #fdd835;
+}
+.row p {
+	font: 18px arial;
+	color: white;
+}
+.cup h1 {
+	font: 20px arial;
+	color: #1c424d;
+}
+.cup p {
+	font: 14px arial;
+	color: #1c424d;		
+}
+.cup ul li {
+	display: inline;
+	margin-right: 10px;
+}
+.cup ul li a {
+	display: inline-block;
+}
+.cup ul li a i {
+	color: #f3ca27;
+}
+.cup img {
+	height: 300px;
+	margin-top: -15px;
+}
+.same {
+	background-image: url(../img/statistics-bg.jpg);
+}
+.cont i {
+	color: #f3ca27;
+}
+.cont h2 {
+	font: 18px arial;
+	color: #032731;
+}
+.contact-form {
+    margin-top:70px;
+}
+.contact {
+	width: 100%;
+}
+.contact h2 {
+	font: 24px arial;
+	font-weight: bold;
+	color: #032731;
+}
+.contact button {
+	background-color: #032731;
+	border: 1px solid #f3ca27;
+}
+.icon-last {
+	text-align: center;
+	margin-top: 92px;
+}
+.icon-last ul li {
+	display: inline;
+}
+.icon-last ul li a {
+	display: inline-block;
+	margin-right: 45px;
+}
+.icon-last ul li a i {
+	color: #f3ca27;
+}
+footer {
+	background-color: #032731;	
+}
+.foot {
+	text-align: center;
+}
+.foot p {
+	color: white;
+	font: 18px arial;
+	margin-top: 29px;
+	margin-bottom: 22px;
+}
+.foot p span {
+	font-weight: bold;
+}
